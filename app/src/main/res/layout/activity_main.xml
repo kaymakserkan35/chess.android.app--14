@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.betelgeuse.chessai.board.ChessBoardControl
+        android:id="@+id/chessBoardControl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.betelgeuse.chessai.board.ChessBoardControl>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/autoPlay"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:text="ply" />
+
+        <Button
+            android:id="@+id/backward"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:text="bck" />
+
+        <Button
+            android:id="@+id/forward"
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:text="frd" />
+
+        <Button
+            android:id="@+id/reverseView"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:text="vw" />
+
+        <Button
+            android:id="@+id/mvs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mvs" />
+
+        <Button
+            android:id="@+id/anl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pos" />
+    </LinearLayout>
+
+    <com.betelgeuse.chessai.Controls.MoveContainer
+        android:id="@+id/moveContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.betelgeuse.chessai.Controls.MoveContainer>
+
+
+</LinearLayout>

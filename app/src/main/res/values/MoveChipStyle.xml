@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="moveChipStyle" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- İstediğiniz özel stiller veya özellikler -->
+    </style>
+</resources>
